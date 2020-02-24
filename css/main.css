@@ -208,13 +208,15 @@
   }
 
   .custom-navbar .navbar-brand {
-    color: #ffffff;
+    color: transparent;
     font-size: 18px;
     font-weight: bold;
+    background: url('../images/NearshoreGMLogoWhite.png') center center no-repeat;
+    background-size: contain;
   }
 
   .custom-navbar .navbar-brand span {
-    color: #ce3232;
+    color: transparent;
   }
 
   .top-nav-collapse {
@@ -305,7 +307,9 @@
     }
 
     .top-nav-collapse .navbar-brand {
-      color: #454545;
+      color: transparent;
+      background: url('../images/NearshoreGMLogoDark.png') center center no-repeat;
+      background-size: contain;
     }
 
     .top-nav-collapse .nav li a {
@@ -713,8 +717,10 @@
 
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
-      color: #252525;
+      color: transparent;
       font-weight: 600;
+      background: url('../images/NearshoreGMLogoDark.png') center center no-repeat;
+      background-size: contain;
     }
 
     .custom-navbar .nav li a,
