@@ -25,7 +25,6 @@
   }
 
   h2 {
-    color: #353535;
     font-size: 2em;
     padding-bottom: 10px;
   }
@@ -400,11 +399,11 @@
   }
 
   .slider .item-first {
-    background-image: url(../images/digitalbg.jpeg);
+    background-image: url(../images/background-image3.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/digitalbg2.jpeg);
+    background-image: url(../images/background-image3.jpg);
   }
 
   .slider .item-second .section-btn {
@@ -450,69 +449,23 @@
   }
 
 
-  /*---------------------------------------
-      Partnership
-  -----------------------------------------*/
-
-  #partnership {
-    background: url('../images/partnership-bg.jpg') center center no-repeat;
-    background-size: cover;
-    background-position: inherit;
-  }
-
-  #partnership .owl-dots {
-    position: relative;
-    top: 0;
-    right: 0;
-    justify-content: center;
-  }
-
-  #partnership .owl-theme .owl-dots .owl-dot,
-  #partnership .owl-theme .owl-dots .owl-dot span {
-    display: inline-block;
-  }
-
-  #partnership .owl-theme .owl-dots .owl-dot span {
-    margin: 20px 5px;
-  }
-
-  #partnership h2 {
-    color: #ffffff;
-  }
-
-  #partnership p,
-  .tst-author h4,
-  .tst-author span {
-    display: inline;
-  }
-
-  #partnership p {
-    color: #d9d9d9;
-    font-size: 20px;
-    line-height: 35px;
-  }
-
-  .tst-author {
-    margin-top: 20px;
-  }
-
-  .tst-author h4,
-  .tst-author span {
-    color: #b2b2b2;
-  }
-
-  .tst-author span {
-    margin-left: 5px;
-  }
-
-
 
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
+  #contact {
+    background-color: #173f5c;
+  }
 
+  #contact h2 {
+    color: #ffffff;!important;
+  }
+  #contact .form-control {
+    color: #ffffff;!important;
+  }
   #contact .section-title {
     padding-bottom: 0;
+    color: #ffffff;
   }
 
   #contact .text-success,
@@ -564,7 +517,6 @@
 
   footer {
     border-top: 1px solid rgba(0,0,0,0.05);
-    background-color: #0A1A27;
     padding: 20px 0;
   }
 
@@ -578,11 +530,11 @@
 
   footer a,
   footer p {
-    color: #d9d9d9;
+    color: #173f5c;
   }
 
   footer strong {
-    color: #d9d9d9;
+    color: #173f5c;
   }
 
   footer address p {
